@@ -1,0 +1,19 @@
+{
+  "name": "jobboard-backend",
+  "version": "1.0.0",
+  "description": "Job Board Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/I-m-a-grad/JobBoard-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/I-m-a-grad/JobBoard-Backend/issues"
+  },
+  "homepage": "https://github.com/I-m-a-grad/JobBoard-Backend#readme"
+}
