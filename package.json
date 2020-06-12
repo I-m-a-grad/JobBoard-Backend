@@ -1,19 +1,30 @@
 {
-  "name": "jobboard-backend",
-  "version": "1.0.0",
-  "description": "Job Board Server",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/I-m-a-grad/JobBoard-Backend.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/I-m-a-grad/JobBoard-Backend/issues"
-  },
-  "homepage": "https://github.com/I-m-a-grad/JobBoard-Backend#readme"
+    "name": "jobboard-backend",
+    "version": "1.0.0",
+    "description": "Job Board Server",
+    "main": "server/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-server": "nodemon --watch server server/index.js -e js,css",
+        "start": "echo 'Running server for production - developers, use npm run start:dev for development' && node main",
+        "seed": "node seed.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/I-m-a-grad/JobBoard-Backend.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/I-m-a-grad/JobBoard-Backend/issues"
+    },
+    "homepage": "https://github.com/I-m-a-grad/JobBoard-Backend#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "body-parser": "^1.19.0"
+    },
+    "devDependencies": {
+        "volleyball": "^1.5.1",
+        "nodemon": "^2.0.4"
+    }
 }
